@@ -1,0 +1,66 @@
+
+#s1,#s3,#sancha,#shepi
+{
+	position: absolute;
+	right: 0px;
+	width: 60px;
+	height: 60px;
+}
+
+#s1
+{
+	bottom:60px;
+	background:url('pic/s1.png') no-repeat;
+}
+#s3
+{
+	bottom:120px;
+	background:url('pic/s3.png') no-repeat;
+}
+#sancha
+{
+	bottom:180px;
+	background:url('pic/tridentb.png') no-repeat;
+}
+#shepi
+{
+	bottom:240px;
+	background:url('pic/sp.png') no-repeat;
+}
+#wajie
+{
+	position: absolute;
+	left: 0px;
+	width: 60px;
+	height: 60px;
+	bottom: 120px;
+	background:url('pic/rayr.png') no-repeat;
+}
+#wajie0
+{
+	position: absolute;
+	left: 0px;
+	width: 60px;
+	height: 60px;
+	bottom: 120px;
+	background:url('pic/rayg.png') no-repeat;
+}
+body, html {
+　　position: fixed;
+　　top: 0px;
+　　bottom: 0px;
+　　width: 100%;
+　　height: 100%;
+}
+body:before {
+
+width: 200%;
+height: 200%;
+content: ' ';
+position: fixed;
+z-index: -1;
+top: 0;
+left: 0;
+background: #fff;
+
+}
